@@ -1,0 +1,40 @@
+# Virtual Environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Database
+*.db
+
+# Models (optional if large)
+models/*.onnx
+models/*.task
+
+# Environment Variables
+.env
+
+# Test Cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Temporary
+*.tmp
+*.bak 
