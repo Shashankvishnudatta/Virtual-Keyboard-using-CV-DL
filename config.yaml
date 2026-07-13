@@ -1,1 +1,12 @@
- 
+# VisionTypeAI Configuration
+
+camera:
+  device_id: 0
+  width: 1280
+  height: 720
+  fps: 30
+
+vision:
+  max_hands: 2
+  detection_confidence: 0.7  # Higher = more strict detection, less flickering
+  tracking_confidence: 0.7   # Higher = smoother tracking, but might drop if moving too fast
